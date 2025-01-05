@@ -15,8 +15,8 @@ jobs:
     - run: npm install
     - shell: bash
       env:
-        DROPBOX_ACCESS_TOKEN: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
-        DROPBOX_NYTC_PATH: ${{ secrets.DROPBOX_NYTC_PATH }}
+        DROPBOX_ACCESS_TOKEN: ${{dVz_U6lEBt4AAAAAAAAARdrWI8a9QQXHBmp8ICxp-sg}}
+        DROPBOX_NYTC_PATH: ${{/Supernote/Document/Crosswords}}
         DROPBOX_WSJC_PATH: ${{ secrets.DROPBOX_WSJC_PATH }}
-        NYT_COOKIE: ${{ secrets.NYT_COOKIE }}
+        NYT_COOKIE: ${{nyt-b3-traceid=8b812f1ba93547808b77cc21c26c8d81; nyt-a=sFrH1VuB3glDV_Bg8WjIBE; nyt-purr=cfhhpfhhhckfhdfhhgah2f; nyt-traceid=(null); nyt-jkidd=uid=207662516&lastRequest=1736049758000&activeDays=%5B0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C1%2C0%2C0%2C0%2C0%2C1%2C1%5D&adv=3&a7dv=3&a14dv=3&a21dv=3&lastKnownType=sub&newsStartDate=&entitlements=XWD; nyt-tos-viewed=true; datadome=8W7i6ivFxI1Z3DTquiEZR3D22Sels2yFpiDXIssanum9n_HsPboFm83kS85VR_NdNoVnC6uF25BJVwXnDgpz~p8rVhE4jZz5Pbumhuody7bJdPzObX4DYg2nrlf8_x5r; nyt-auth-method=sso; nyt-gdpr=0; nyt-geo=US; nyt-m=7D0A914F701FAC832B8D69B161809B8A&rc=i.0&er=i.1736038917&ft=i.0&ica=i.0&ifv=i.0&ira=i.0&n=i.2&fv=i.0&cav=i.0&prt=i.0&imv=i.0&iir=i.0&v=i.0&pr=l.4.0.0.0.0&igf=i.0&iru=i.1&s=s.crosswords&t=i.0&g=i.0&igd=i.0&uuid=s.58612e1d-6bea-467d-9057-9d2f20cda39a&vr=l.4.0.0.0.0&iue=i.1&iub=i.0&iga=i.0&igu=i.1&imu=i.1&ird=i.0&vp=i.0&ier=i.0&e=i.1738418400}}
       run: node main.js
